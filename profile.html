@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coffii | Profile</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="resources/style.css" type="text/css" rel="stylesheet" />
+<link href="resources/base.css" type="text/css" rel="stylesheet" />
+<link href="resources/profile.css" type="text/css" rel="stylesheet" />
+<script src="resources/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header>
+      <div class="topnav">
+        <img src="images/logo.png">
+        <a href="index.html" id="topnav-home-btn">Home</a>
+        <a href="map.html">Map</a>
+        <a href="room.html" id="topnav-room">Room ???</a>
+        <a id="topnav-exit" onclick="exitRoom()"><i class="fa fa-times" aria-hidden="true"></i></a>
+        <i class="fa fa-circle" aria-hidden="true" id="topnav-status-dot"></i>
+
+        <div class="profile">
+          <a href="about.html" id="topnav-about"><i class="fa fa-question" aria-hidden="true"></i></a>
+          <a id="topnav-logoff" onclick="logOff()"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+          <a class="active" id="topnav-profile" href="profile.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div class="topnav-edge"></div>
+    </header>
+
+    <!-- Front Page -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+
+</body>
+
+</html>
