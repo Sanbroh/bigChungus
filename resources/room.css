@@ -1,0 +1,44 @@
+body {
+
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  background-color: #821432;
+  padding: 10px 24px;
+  width: 100%;
+  z-index: 100;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+  padding: 8px 10px;
+}
+
+.topnav a:hover {
+  float: left;
+  display: block;
+  color: #821432;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  background: #ffffff;
+  border: none;
+  border-radius: 64px;
+
+  padding: 8px 10px;
+}
+
+.livestream {
+  position: fixed;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}

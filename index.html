@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Coffi | Comfort of your home, bustle of the world.</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="resources/style.css" type="text/css" rel="stylesheet" />
+<link href="resources/base.css" type="text/css" rel="stylesheet" />
+<link href="resources/home.css" type="text/css" rel="stylesheet" />
+<script src="resources/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header>
+      <div class="topnav">
+        <img src="images/logo.png">
+        <a class="active" href="index.html" id="topnav-home-btn">Home</a>
+        <a href="map.html">Map</a>
+        <a href="room.html" id="topnav-room">Room ???</a>
+        <a id="topnav-exit" onclick="exitRoom()"><i class="fa fa-times" aria-hidden="true"></i></a>
+        <i class="fa fa-circle" aria-hidden="true" id="topnav-status-dot"></i>
+
+        <div class="profile">
+          <a href="about.html" id="topnav-about"><i class="fa fa-question" aria-hidden="true"></i></a>
+          <a id="topnav-logoff" onclick="logOff()"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+          <a id="topnav-profile" href="profile.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div class="topnav-edge"></div>
+    </header>
+
+    <!-- Front Page -->
+
+    <div class="main">
+      <div class="front-intro" style="margin-top: 0px;background-image: url('images/front-intro-alt.png');">
+        <div class="front-menu">
+          <div class="tab">
+            <button id="defaultOpen" class="tablinks active" onclick="openTab(event, 'tab1')">Nomads</button>
+            <button class="tablinks active" onclick="openTab(event, 'tab2')">Taverns</button>
+            <button class="tablinks active" onclick="openTab(event, 'tab3')">Guilds</button>
+          </div>
+
+          <div id="tab1" class="tabcontent">
+            <h2>Join the online community</h2>
+            <p>London is the capital city of England.</p>
+          </div>
+
+          <div id="tab2" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+
+          <div id="tab3" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="front-content1">
+        <p>PLACEHOLDER</p>
+      </div>
+    </div>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+
+</body>
+
+</html>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
